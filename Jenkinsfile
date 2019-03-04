@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('tampilkan') {
+    stage('') {
       steps {
-        echo 'hello i am hapit!'
+        sh '"sh \'file 79\'"'
       }
     }
   }
